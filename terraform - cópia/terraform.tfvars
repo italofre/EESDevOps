@@ -1,0 +1,15 @@
+region = "us-east-1"
+ami = "ami-04a81a99f5ec58529"
+instance_type = "t2.micro"
+key_name = "Uece-Server"
+ec2_security_group_id = "sg-0bf0327619ad14b25"
+lb_security_group_id = "sg-0bf0327619ad14b25"
+rds_security_group_id = "sg-08b65e08a7c2179ac"
+lb_subnets = ["subnet-0558d3229ca746071", "subnet-01d351dad83325e4e"]
+ec2_subnet_id = "subnet-0f683a4bab6f462b9"
+vpc_id = "vpc-02dffe38949aeb351"
+db_username = "root"
+db_password = "ServerUece123"
+db_name = "wordpress"
+db_subnet_group_name = "db_subnet-terraform"
+subnet_ids = ["subnet-0f683a4bab6f462b9", "subnet-00e09a856be3eb550"]
